@@ -6,6 +6,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     long long test=1;
+    long long k;
     cin >> test;
     while (test--)
     {
