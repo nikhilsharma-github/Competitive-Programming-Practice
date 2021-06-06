@@ -14,6 +14,7 @@ for(int i=0;i<d;i++)
 t[i]=a[i];
 
 for(int i=0;i<7-d;i++)
+ 
 a[i]=a[i+d];
 
 for(i=0;i<d;i++)
