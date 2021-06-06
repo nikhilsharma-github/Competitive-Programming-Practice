@@ -24,20 +24,21 @@ int main()
     int l = 0, r = n - 1, turn = 1;
     while (l <= r)
     {
-        deb(l);
-        deb(r);
-        deb(turn);
+        // deb(l);
+        // deb(r);
+        // deb(turn);
         if (turn == 1)
         {
 
             if (a[l] >= a[r])
             {
-                sarja++;
+                sarja=sarja+a[l];
                 l++;
             }
             else if (a[r] > a[l])
             {
-                sarja++;
+                sarja=sarja+a[r];
+                
                 r--;
             }
         }
@@ -46,17 +47,18 @@ int main()
 
             if (a[l] >= a[r])
             {
-                dima++;
+                dima=dima+a[l];
                 l++;
             }
             else if (a[r] > a[l])
             {
-                dima++;
+                dima=dima+a[r];
+                
                 r--;
             }
         }
-        deb(sarja);
-        deb(dima);
+        // deb(sarja);
+        // deb(dima);
         turn = 1 - turn;
     }
 

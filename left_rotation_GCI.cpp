@@ -4,7 +4,7 @@ using namespace std;
 
 
 void print(int a[],int n){
-    cout<<"array is : "<<endl;
+    // cout<<"array is : "<<endl;
 
     for(int i=0;i<n;i++)
     cout<<a[i]<<" ";
